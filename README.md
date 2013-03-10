@@ -44,6 +44,7 @@ Works great on linux and MacOSX
 
 
 Further info / SPEEDING UP:
+<code>
 ;; http://ourcomments.org/Emacs/nXhtml/doc/nxhtml.html#qg
 ;; http://ourcomments.org/cgi-bin/emacsw32-dl-latest.pl
 ;;
@@ -60,3 +61,4 @@ Further info / SPEEDING UP:
 ;; fallback to php-mode always when "<?[LETTER]" is seen that is not "<?xml"
 ;;    cd $HOME/emacs/nxhtml/;
 ;;    perl -i -pe "s/exc-mode 'mumamo-bad-mode/exc-mode 'php-mode/"  util/mumamo-fun.el;
+</code>
