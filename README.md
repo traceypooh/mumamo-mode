@@ -11,10 +11,10 @@ Has some auto-newline and indent features for JS/CSS/PHP
 
 
 This repo was made by:
-  unzip from latest mumamo source
-  removed some htm/doc unused junk
-  minor emacs v24 tweaks (had fatal warnings otherwise)
-  a few lines after loading turn from light to dark theme
+* unzip from latest mumamo source
+* removed some htm/doc unused junk
+* minor emacs v24 tweaks (had fatal warnings otherwise)
+* a few lines after loading turn from light to dark theme
 
 
 
