@@ -55,7 +55,7 @@ Further info / SPEEDING UP:
 ;;
 ;; These are the essential changes I made to default mumamo-mode source:
 ;; byte compiling had 2 fatal warnings had to workaround with first to make the .elc files:
-;;    cd $HOME/emacs/nxhtml/;
+;;    cd $HOME/mumamo-mode/nxhtml/;
 ;;    perl -i -pe s/font-lock-beginning-of-syntax-function/syntax-begin-function/g */*.el;
 ;;    perl -i -pe s/font-lock-syntactic-keywords/syntax-propertize-function/g      */*.el;
 ;; fallback to php-mode always when "<?[LETTER]" is seen that is not "<?xml"
