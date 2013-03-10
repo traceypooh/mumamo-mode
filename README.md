@@ -58,7 +58,7 @@ Further info / SPEEDING UP:
 ;;    cd $HOME/mumamo-mode/nxhtml/;
 ;;    perl -i -pe s/font-lock-beginning-of-syntax-function/syntax-begin-function/g */*.el;
 ;;    perl -i -pe s/font-lock-syntactic-keywords/syntax-propertize-function/g      */*.el;
-;; fallback to php-mode always when "<?[LETTER]" is seen that is not "<?xml"
+;; fallback to php-mode always when "<?[LETTER]" is seen that is not "<&lt;?xml"
 ;;    cd $HOME/emacs/nxhtml/;
 ;;    perl -i -pe "s/exc-mode 'mumamo-bad-mode/exc-mode 'php-mode/"  util/mumamo-fun.el;
 </pre>
