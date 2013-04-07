@@ -8,44 +8,6 @@
 (global-font-lock-mode 1)
 
 
-;; for "-nw" mode, only 8 colors possible i guess:
-;;     black  blue  cyan  green  magenta  red  white  yellow
-;; and we can pick from these vars to color our programs/scripts:
-;;
-;; font-lock-builtin-face                  
-;; font-lock-comment-delimiter-face
-;; font-lock-comment-face                  
-;; font-lock-constant-face
-;; font-lock-doc-face                      
-;; font-lock-face-attributes
-;; font-lock-function-name-face            
-;; font-lock-keyword-face
-;; font-lock-negation-char-face            
-;; font-lock-preprocessor-face
-;; font-lock-reference-face                
-;; font-lock-string-face
-;; font-lock-syntactic-face-function       
-;; font-lock-type-face
-;; font-lock-variable-name-face            
-;; font-lock-warning-face
-
-(set-foreground-color "white")
-(set-background-color "black");; screen background
-(set-mouse-color "red");; ptr/cursor color
-(set-cursor-color "red");; ptr/cursor color
-
-(setq font-lock-face-attributes
-      '((font-lock-comment-face "magenta")
-        (font-lock-comment-delimiter-face "magenta")
-        (font-lock-function-name-face "red")
-        (font-lock-string-face "cyan")
-        (font-lock-keyword-face "yellow")
-        (font-lock-constant-face "green")
-        (font-lock-variable-name-face "green")
-        )
-      )
-
-
 
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
