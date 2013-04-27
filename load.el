@@ -27,6 +27,9 @@
  '(mumamo-background-chunk-submode1 ((t (:background "#1c1c1c"))))
  '(mumamo-background-chunk-submode2 ((t (:background "red"))))
  )
+;; j*sus, mumamo *** SHUT THE F**K UP ***
+(custom-set-variables '(warning-minimum-level :emergency))
+
 
 
 ;; another multi-mode 3rd party library
