@@ -23,8 +23,8 @@
 
 ;; we prefer a dark theme, not the default light!
 (custom-set-faces  ;; M-x customize-group RET mumamo RET
- '(mumamo-background-chunk-major ((t (:background "black"))))
- '(mumamo-background-chunk-submode1 ((t (:background "#1c1c1c"))))
+ '(mumamo-background-chunk-major ((t (:background "#1c1c1c"))))
+ '(mumamo-background-chunk-submode1 ((t (:background "#101010"))))
  '(mumamo-background-chunk-submode2 ((t (:background "red"))))
  )
 ;; j*sus, mumamo *** SHUT THE F**K UP ***
