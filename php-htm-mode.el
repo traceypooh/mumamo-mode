@@ -147,3 +147,15 @@
 (setq auto-mode-alist 
       (append '(("\\.js$"   . js-mode))
               auto-mode-alist ))
+
+
+;; JFC STFU!
+ (eval-after-load 'nxhtml '(nxhtml-toggle-visible-warnings))
+;; Workaround the annoying warnings:
+;;    Warning (mumamo-per-buffer-local-vars):
+;;    Already 'permanent-local t: buffer-file-name
+(when (and (>= emacs-major-version 24)
+           (>= emacs-minor-version 2))
+  (eval-after-load "mumamo"
+    '(setq mumamo-per-buffer-local-vars
+           (delq 'buffer-file-name mumamo-per-buffer-local-vars))))
