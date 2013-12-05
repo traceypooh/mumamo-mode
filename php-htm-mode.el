@@ -35,6 +35,9 @@
   (tracey-text-mode)
   (setq c-basic-indent 2) ;; this is for js2-mode, actually, sigh...
 
+  (setq require-final-newline nil)
+
+  
   (if (eq emacs-major-version '24)
     (progn
       ;;;;;;;;;;  NOTE: requires emacs 24+
