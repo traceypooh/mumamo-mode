@@ -146,6 +146,7 @@
 ;;   http://emacswiki.org/emacs/JavaScriptMode
 (setq auto-mode-alist 
       (append '(("\\.js$"   . js-mode))
+              '(("\\.less$" . css-mode))
               auto-mode-alist ))
 
 
