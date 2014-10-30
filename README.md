@@ -38,7 +38,7 @@ Example usage setup:
 
 
 Works great on linux and MacOSX 
-(I'm using macports and "sudo port install emacs php-mode.el" for v24 emacs in Mountain Lion)
+(I'm using brew and "brew install emacs" for v24.4 emacs in Yosemite)
 
 
 
